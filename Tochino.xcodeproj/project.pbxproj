@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D2C6CEA2C4C975200349CAD /* LoginEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C6CE92C4C975200349CAD /* LoginEmailView.swift */; };
+		1D2C6CEC2C4C9BC100349CAD /* RegisterEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C6CEB2C4C9BC100349CAD /* RegisterEmailView.swift */; };
+		1D2C6CEE2C4C9FBB00349CAD /* DismissView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C6CED2C4C9FBB00349CAD /* DismissView.swift */; };
+		1D2C6CF12C4CA58400349CAD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1D2C6CF02C4CA58400349CAD /* FirebaseAuth */; };
+		1D2C6CF62C4CA6D300349CAD /* AuthenticationFirebaseDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C6CF52C4CA6D300349CAD /* AuthenticationFirebaseDatasource.swift */; };
+		1D2C6CF82C4CAC8400349CAD /* AuthenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C6CF72C4CAC8400349CAD /* AuthenticationRepository.swift */; };
+		1D2C6CFA2C4CADC500349CAD /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C6CF92C4CADC500349CAD /* AuthenticationViewModel.swift */; };
+		1D338C5F2C4D850F00DD46D2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D338C5E2C4D850F00DD46D2 /* HomeView.swift */; };
+		1D7B2DBE2C4D81BE00EFB211 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1D7B2DBD2C4D81BE00EFB211 /* FirebaseFirestore */; };
+		1D7B2DC02C4D81E000EFB211 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1D7B2DBF2C4D81E000EFB211 /* FirebaseFirestoreSwift */; };
 		1DBBD2122C3BB87F006916FB /* TochinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBBD2112C3BB87F006916FB /* TochinoApp.swift */; };
-		1DBBD2142C3BB87F006916FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBBD2132C3BB87F006916FB /* ContentView.swift */; };
 		1DBBD2162C3BB881006916FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DBBD2152C3BB881006916FB /* Assets.xcassets */; };
 		1DBBD2192C3BB881006916FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DBBD2182C3BB881006916FB /* Preview Assets.xcassets */; };
+		1DD57BBA2C6D80D500B59283 /* Blackjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD57BB92C6D80D500B59283 /* Blackjack.swift */; };
+		1DEB219A2C48B54800CF92F9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEB21992C48B54800CF92F9 /* FirebaseAnalytics */; };
+		1DEB219C2C48B54800CF92F9 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEB219B2C48B54800CF92F9 /* FirebaseAnalyticsOnDeviceConversion */; };
+		1DEB219E2C48B54800CF92F9 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEB219D2C48B54800CF92F9 /* FirebaseAnalyticsSwift */; };
+		1DEB21A22C48B8FF00CF92F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DEB21A12C48B8FF00CF92F9 /* GoogleService-Info.plist */; };
+		1DEB21A42C4A0BF100CF92F9 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB21A32C4A0BF100CF92F9 /* Login.swift */; };
+		1DEB21A62C4A0E2700CF92F9 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB21A52C4A0E2700CF92F9 /* Slot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D2C6CE92C4C975200349CAD /* LoginEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEmailView.swift; sourceTree = "<group>"; };
+		1D2C6CEB2C4C9BC100349CAD /* RegisterEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEmailView.swift; sourceTree = "<group>"; };
+		1D2C6CED2C4C9FBB00349CAD /* DismissView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissView.swift; sourceTree = "<group>"; };
+		1D2C6CF52C4CA6D300349CAD /* AuthenticationFirebaseDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFirebaseDatasource.swift; sourceTree = "<group>"; };
+		1D2C6CF72C4CAC8400349CAD /* AuthenticationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRepository.swift; sourceTree = "<group>"; };
+		1D2C6CF92C4CADC500349CAD /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		1D338C5E2C4D850F00DD46D2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1DBBD20E2C3BB87F006916FB /* Tochino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tochino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DBBD2112C3BB87F006916FB /* TochinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TochinoApp.swift; sourceTree = "<group>"; };
-		1DBBD2132C3BB87F006916FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DBBD2152C3BB881006916FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DBBD2182C3BB881006916FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DD57BB92C6D80D500B59283 /* Blackjack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blackjack.swift; sourceTree = "<group>"; };
+		1DEB21A12C48B8FF00CF92F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1DEB21A32C4A0BF100CF92F9 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		1DEB21A52C4A0E2700CF92F9 /* Slot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +52,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DEB219E2C48B54800CF92F9 /* FirebaseAnalyticsSwift in Frameworks */,
+				1DEB219A2C48B54800CF92F9 /* FirebaseAnalytics in Frameworks */,
+				1DEB219C2C48B54800CF92F9 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				1D7B2DBE2C4D81BE00EFB211 /* FirebaseFirestore in Frameworks */,
+				1D2C6CF12C4CA58400349CAD /* FirebaseAuth in Frameworks */,
+				1D7B2DC02C4D81E000EFB211 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D2C6CEF2C4CA58400349CAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D2C6CF42C4CA60400349CAD /* AuthenticationViews */ = {
+			isa = PBXGroup;
+			children = (
+				1D2C6CE92C4C975200349CAD /* LoginEmailView.swift */,
+				1D2C6CEB2C4C9BC100349CAD /* RegisterEmailView.swift */,
+				1DEB21A32C4A0BF100CF92F9 /* Login.swift */,
+			);
+			path = AuthenticationViews;
+			sourceTree = "<group>";
+		};
 		1DBBD2052C3BB87F006916FB = {
 			isa = PBXGroup;
 			children = (
 				1DBBD2102C3BB87F006916FB /* Tochino */,
 				1DBBD20F2C3BB87F006916FB /* Products */,
+				1D2C6CEF2C4CA58400349CAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +101,18 @@
 		1DBBD2102C3BB87F006916FB /* Tochino */ = {
 			isa = PBXGroup;
 			children = (
+				1D2C6CF42C4CA60400349CAD /* AuthenticationViews */,
+				1D2C6CED2C4C9FBB00349CAD /* DismissView.swift */,
 				1DBBD2112C3BB87F006916FB /* TochinoApp.swift */,
-				1DBBD2132C3BB87F006916FB /* ContentView.swift */,
+				1D2C6CF52C4CA6D300349CAD /* AuthenticationFirebaseDatasource.swift */,
+				1D2C6CF72C4CAC8400349CAD /* AuthenticationRepository.swift */,
+				1D2C6CF92C4CADC500349CAD /* AuthenticationViewModel.swift */,
+				1DEB21A52C4A0E2700CF92F9 /* Slot.swift */,
+				1D338C5E2C4D850F00DD46D2 /* HomeView.swift */,
+				1DEB21A12C48B8FF00CF92F9 /* GoogleService-Info.plist */,
 				1DBBD2152C3BB881006916FB /* Assets.xcassets */,
 				1DBBD2172C3BB881006916FB /* Preview Content */,
+				1DD57BB92C6D80D500B59283 /* Blackjack.swift */,
 			);
 			path = Tochino;
 			sourceTree = "<group>";
@@ -83,6 +141,14 @@
 			dependencies = (
 			);
 			name = Tochino;
+			packageProductDependencies = (
+				1DEB21992C48B54800CF92F9 /* FirebaseAnalytics */,
+				1DEB219B2C48B54800CF92F9 /* FirebaseAnalyticsOnDeviceConversion */,
+				1DEB219D2C48B54800CF92F9 /* FirebaseAnalyticsSwift */,
+				1D2C6CF02C4CA58400349CAD /* FirebaseAuth */,
+				1D7B2DBD2C4D81BE00EFB211 /* FirebaseFirestore */,
+				1D7B2DBF2C4D81E000EFB211 /* FirebaseFirestoreSwift */,
+			);
 			productName = Tochino;
 			productReference = 1DBBD20E2C3BB87F006916FB /* Tochino.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +177,9 @@
 				Base,
 			);
 			mainGroup = 1DBBD2052C3BB87F006916FB;
+			packageReferences = (
+				1DEB21982C48B54700CF92F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 1DBBD20F2C3BB87F006916FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DBBD2192C3BB881006916FB /* Preview Assets.xcassets in Resources */,
+				1DEB21A22C48B8FF00CF92F9 /* GoogleService-Info.plist in Resources */,
 				1DBBD2162C3BB881006916FB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +207,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DBBD2142C3BB87F006916FB /* ContentView.swift in Sources */,
+				1D2C6CEC2C4C9BC100349CAD /* RegisterEmailView.swift in Sources */,
+				1D2C6CF82C4CAC8400349CAD /* AuthenticationRepository.swift in Sources */,
+				1DEB21A42C4A0BF100CF92F9 /* Login.swift in Sources */,
+				1D338C5F2C4D850F00DD46D2 /* HomeView.swift in Sources */,
 				1DBBD2122C3BB87F006916FB /* TochinoApp.swift in Sources */,
+				1DD57BBA2C6D80D500B59283 /* Blackjack.swift in Sources */,
+				1DEB21A62C4A0E2700CF92F9 /* Slot.swift in Sources */,
+				1D2C6CEA2C4C975200349CAD /* LoginEmailView.swift in Sources */,
+				1D2C6CFA2C4CADC500349CAD /* AuthenticationViewModel.swift in Sources */,
+				1D2C6CF62C4CA6D300349CAD /* AuthenticationFirebaseDatasource.swift in Sources */,
+				1D2C6CEE2C4C9FBB00349CAD /* DismissView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +364,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Ejemplo.Tochino;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hugoide.Tochino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,7 +394,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Ejemplo.Tochino;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hugoide.Tochino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,6 +425,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DEB21982C48B54700CF92F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D2C6CF02C4CA58400349CAD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DEB21982C48B54700CF92F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1D7B2DBD2C4D81BE00EFB211 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DEB21982C48B54700CF92F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1D7B2DBF2C4D81E000EFB211 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DEB21982C48B54700CF92F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		1DEB21992C48B54800CF92F9 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DEB21982C48B54700CF92F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		1DEB219B2C48B54800CF92F9 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DEB21982C48B54700CF92F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		1DEB219D2C48B54800CF92F9 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DEB21982C48B54700CF92F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1DBBD2062C3BB87F006916FB /* Project object */;
 }
